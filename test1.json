@@ -10,10 +10,10 @@
     "width": 10, 
     "options": [{ 
       "label": "acs_mongodb",
-      "value": "acs_mongodb", 
+      "value": "acs_mongodb" 
     },{
       "label": "acs_rds",
-      "value": "acs_rds",
+      "value": "acs_rds"
     }]
   },{
     "name": "metric",
