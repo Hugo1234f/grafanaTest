@@ -1,0 +1,37 @@
+[{
+  "label": "Describe metric list", 
+  "value": "DescribeMetricList", 
+  "payloads": [{ 
+    "label": "Namespace", 
+    "name": "namespace", 
+    "type": "select", 
+    "placeholder": "Please select namespace", 
+    "reloadMetric": true, 
+    "width": 10, 
+    "options": [{ 
+      "label": "acs_mongodb",
+      "value": "acs_mongodb", 
+    },{
+      "label": "acs_rds",
+      "value": "acs_rds",
+    }]
+  },{
+    "name": "metric",
+    "type": "select"
+  },{
+    "name": "instanceId",
+    "type": "select"
+  }]
+},{
+  "value": "DescribeMetricLast",
+  "payloads": [{
+    "name": "namespace",
+    "type": "select"
+  },{
+    "name": "metric",
+    "type": "select"
+  },{
+    "name": "instanceId",
+    "type": "multi-select"
+  }]
+}]
